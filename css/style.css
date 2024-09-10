@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-background-color: #333;
+  --header-color: whitesmoke;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+header {
+  background-color: var(--header-background-color);
+  color: var(--header-color);
+}
